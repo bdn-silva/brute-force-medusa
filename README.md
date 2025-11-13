@@ -2,8 +2,6 @@
 
 Projeto prático desenvolvido para o curso de cibersegurança da DIO, com o objetivo de implementar, documentar e compartilhar um estudo de caso sobre ataques de força bruta.
 
-**Autor:** Brendon Silva
-**Data:** 13/11/2025
 
 ---
 
